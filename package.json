@@ -1,10 +1,10 @@
 {
   "name": "cnz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "index.cjs",
   "module": "index.js",
-  "description": "Generate a classnames string.",
+  "description": "A really tiny library that generates classname strings.",
   "repository": "rileyjshaw/cnz",
   "license": "gpl-3.0",
   "exports": {
@@ -14,10 +14,15 @@
       "import": "./index.js"
     }
   },
+  "sideEffects": false,
   "files": [
-    "*.*(c)[tj]s*"
+    "./index.js",
+    "./index.cjs"
   ],
-  "author": "rileyjshaw",
+  "author": {
+    "name": "rileyjshaw",
+    "url": "https://rileyjshaw.com"
+  },
   "keywords": [
     "classnames",
     "classlist",
