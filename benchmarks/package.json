@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npm install && node index.js"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "classnames": "*",
+    "clsx": "*"
+  }
+}
