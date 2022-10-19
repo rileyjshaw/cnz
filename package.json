@@ -1,6 +1,6 @@
 {
   "name": "cnz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "index.cjs",
   "module": "index.js",
@@ -16,7 +16,8 @@
   },
   "sideEffects": false,
   "files": [
-    "./index.js"
+    "./index.js",
+    "./index.cjs"
   ],
   "author": {
     "name": "rileyjshaw",
@@ -24,8 +25,10 @@
   },
   "keywords": [
     "classnames",
+    "classname",
     "classlist",
-    "class"
+    "class",
+    "cn"
   ],
   "scripts": {
     "test": "c8 twist tests/*.js",

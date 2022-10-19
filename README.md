@@ -4,7 +4,7 @@
 
 This is an extremely simple javascript utility for conditionally joining classNames together. It’s based on [`classnames`](https://github.com/JedWatson/classnames) and its various [clones and improvements](https://github.com/lukeed/clsx).
 
-This one is 151 bytes ([146 gzipped](http://bundlephobia.com/result?p=cnz)), which is about [3x smaller than `classnames`](http://bundlephobia.com/result?p=classnames). It’s much slower than `classnames` and `clsx`, but still runs a few million operations / second. I’m okay with that tradeoff.
+This one is **151 bytes (146 gzipped),** which is [several times smaller than `classnames`](http://bundlephobia.com/result?p=classnames). It’s much slower than `classnames` and `clsx`, but still runs a few million operations / second. It’s a tradeoff; [`clsx` is a great library](https://github.com/lukeed/clsx/tree/master/bench) if you’re concerned about execution speed.
 
 ```js
 import cn from 'cnz';
