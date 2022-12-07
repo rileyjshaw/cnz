@@ -1,6 +1,6 @@
 {
   "name": "cnz",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "main": "index.cjs",
   "module": "index.js",
@@ -9,6 +9,7 @@
   "license": "gpl-3.0",
   "exports": {
     "./package.json": "./package.json",
+    "./index.d.ts": "./index.d.ts",
     ".": {
       "require": "./index.cjs",
       "import": "./index.js"
