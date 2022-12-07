@@ -1,5 +1,5 @@
-type Value = string | null | undefined;
+type Value = string | false | null | undefined;
 type Mapping = Record<string, unknown>;
 type Argument = Value | Value[] | Mapping;
-declare function cnz(...args: Argument[]): string;
-export default cnz;
+
+export default function cnz(...args: Argument[]): string;
