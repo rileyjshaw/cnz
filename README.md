@@ -9,9 +9,9 @@ This one is **151 bytes (146 gzipped),** which is [several times smaller than `c
 ```js
 import cn from 'cnz';
 
-cnz('one', 'two', 'three'); // 'one two three'
-cnz('one', 'two', ['three', 'four', false && 'five']); // 'one two three four'
-cnz('one', { two: true, three: false }, 'four'); // 'one two four'
+cn('one', 'two', 'three'); // 'one two three'
+cn('one', 'two', ['three', 'four', false && 'five']); // 'one two three four'
+cn('one', { two: true, three: false }, 'four'); // 'one two four'
 ```
 
 ## Differences
