@@ -1,4 +1,4 @@
-type Value = string | false | null | undefined;
+type Value = string | number | false | null | undefined;
 type Mapping = Record<string, unknown>;
 type Argument = Value | Value[] | Mapping;
 
